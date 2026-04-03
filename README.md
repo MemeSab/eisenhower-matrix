@@ -70,8 +70,8 @@ It allows users to:
 ---
 
 ## 📸 Screenshots
-(Add screenshots here)
-
+<img width="1803" height="614" alt="Matrix-1" src="https://github.com/user-attachments/assets/75bb07c3-9abb-4df2-ba82-7f78318be57c" />
+<img width="403" height="397" alt="Matrix-2" src="https://github.com/user-attachments/assets/c22bbd31-ab00-4a66-a619-872e96acfb93" />
 ---
 
 ## 📦 Getting Started
