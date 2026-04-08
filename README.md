@@ -1,18 +1,42 @@
-# eisenhower-matrix
-# 🧠 Eisenhower Matrix – Focus Tracker
+# 🧠 Focus Matrix – Task Prioritisation App
 
-This project is a productivity tool that helps you sort and prioritise tasks based on the Eisenhower Matrix method (Important vs. Urgent), with Jira integration and manual task creation support.
+## Overview
+A productivity tool based on the Eisenhower Matrix, designed to help users prioritise tasks by urgency and importance.
+
+This project explores how personal task management can better align with structured delivery tools like Jira, bridging the gap between individual prioritisation and team workflows.
+
+---
+
+## The Problem
+Most task management tools rely on linear lists, which don’t support effective decision-making.
+
+In delivery environments, there is also a disconnect between how individuals prioritise work and how tasks are structured in tools like Jira.
+
+This can lead to:
+- Poor prioritisation
+- Misaligned focus
+- Inefficient execution
+
+---
+
+## The Solution
+This app introduces a visual prioritisation system (Focus Matrix) combined with task input from both manual entry and Jira integration.
+
+It allows users to:
+- Make clearer decisions about what matters
+- Visualise workload effectively
+- Align personal priorities with delivery tools
 
 ---
 
 ## ✨ Features
 
-- 4-quadrant matrix layout (Important/Urgent combinations)
-- Add tasks manually via modal popup
-- Load tasks from Jira API
-- Mark tasks as completed (and hide them)
-- Fully responsive design using TailwindCSS
-- React + Vite-based setup
+- 4-quadrant matrix layout (Important vs Urgent)
+- Add tasks manually via modal
+- Load tasks from Jira API (mock/live)
+- Mark tasks as completed (hidden from active view)
+- Responsive UI built with TailwindCSS
+- React + Vite setup
 
 ---
 
@@ -21,19 +45,33 @@ This project is a productivity tool that helps you sort and prioritise tasks bas
 - React
 - Vite
 - TailwindCSS
-- Jira REST API (mock or live)
-- Local state management (with planned localStorage support)
+- Jira REST API
+- Local state (with planned persistence)
 
 ---
 
-## 🚀 Upcoming Improvements
+## 🧠 Key Decisions
+
+- Chose a visual matrix over traditional lists to improve decision-making
+- Designed Jira integration to connect personal and team workflows
+- Kept architecture lightweight to prioritise speed and iteration
+
+---
+
+## 🚀 Roadmap
 
 - [ ] Show/hide completed tasks toggle
-- [ ] Persist tasks to localStorage
+- [ ] Persist tasks using localStorage / Firebase
 - [ ] Drag-and-drop between quadrants
-- [ ] Edit or delete tasks
+- [ ] Edit and delete tasks
 - [ ] Jira bi-directional sync
+- [ ] Notifications and reminders
 
+---
+
+## 📸 Screenshots
+<img width="1803" height="614" alt="Matrix-1" src="https://github.com/user-attachments/assets/75bb07c3-9abb-4df2-ba82-7f78318be57c" />
+<img width="403" height="397" alt="Matrix-2" src="https://github.com/user-attachments/assets/c22bbd31-ab00-4a66-a619-872e96acfb93" />
 ---
 
 ## 📦 Getting Started
